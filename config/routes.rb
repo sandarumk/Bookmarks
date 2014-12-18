@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  # get 'site/index'
+ # root 'bookmarks#index'
+root 'site#index'
+
   devise_for :users
   resources :bookmarks
 
